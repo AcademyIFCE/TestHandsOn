@@ -12,6 +12,7 @@ import XCTest
 class ServiceLayerTests: XCTestCase {
     
     func test_serviceLayer_urlForAllProjectsBR_toBeValid() {
+        
         //given
         let url = URL(string: "https://api.globalgiving.org/api/public/projectservice/countries/BR/projects?api_key=f0859eb6-e16d-470c-93b4-5d7d10fce06b")
         let session = URLSessionMock()
@@ -28,6 +29,7 @@ class ServiceLayerTests: XCTestCase {
     }
     
     func test_serviceLayer_urlForAllProjectsBR_resumeCalled() {
+        
         let session = URLSessionMock()
         let expect = expectation(description: "getting all projects")
         
@@ -41,8 +43,9 @@ class ServiceLayerTests: XCTestCase {
     }
     
     func test_serviceLayer_urlForAllProjectsBR_returnsData() {
-        let session = URLSessionDataMock()
-        session.response = HTTPResponseMock(statusCode: 200)
+        let session = URLSessionMock()
+        
+        session.testResponse = HTTPResponseMock(statusCode: 200)
         session.testData = Data("Hello World".utf8)
         let expect = expectation(description: "getting all projects")
         
@@ -56,8 +59,9 @@ class ServiceLayerTests: XCTestCase {
     }
     
     func test_serviceLayer_urlForAllProjectsBR_returnsError() {
-        let session = URLSessionDataMock()
-        session.response = HTTPResponseMock(statusCode: 400)
+        
+        let session = URLSessionMock()
+        session.testResponse = HTTPResponseMock(statusCode: 400)
         
         let expect = expectation(description: "getting all projects")
         

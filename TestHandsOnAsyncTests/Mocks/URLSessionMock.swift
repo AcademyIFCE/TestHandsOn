@@ -10,29 +10,16 @@ import Foundation
 @testable import TestHandsOn
 
 class URLSessionMock: URLSession {
+    var testData: Data?
+    var testError: ServiceError?
+    var testResponse: HTTPURLResponse?
     var lastURL: URL?
     var dataTask: DataTaskMock?
     
     override func dataTask(with request: URLRequest, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
         lastURL = request.url
-        let newDataTask = DataTaskMock(completion: completionHandler)
-        dataTask = newDataTask
-        return newDataTask
-    }
-    
-}
-
-class URLSessionDataMock: URLSession {
-    var testData: Data?
-    var testError: ServiceError?
-    var response: HTTPURLResponse?
-    var dataTask: DataTaskMockWithData?
-    
-    override func dataTask(with request: URLRequest, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
-        defer {
-            completionHandler(testData, response, testError)
-        }
-        let newDataTask = DataTaskMockWithData()
+        let testMock = TestMockData(data: testData, error: testError, response: testResponse)
+        let newDataTask = DataTaskMock(mockData: testMock, completion: completionHandler)
         dataTask = newDataTask
         return newDataTask
     }

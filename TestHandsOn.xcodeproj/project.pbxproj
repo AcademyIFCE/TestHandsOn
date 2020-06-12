@@ -20,6 +20,7 @@
 		DAAB3D0A2493EBCB00CB9D3F /* URLProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB3D092493EBCB00CB9D3F /* URLProtocolMock.swift */; };
 		DAAB3D0C2493EBEC00CB9D3F /* AlternativeServiceLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB3D0B2493EBEC00CB9D3F /* AlternativeServiceLayerTests.swift */; };
 		DAAB3D0E2493ED7000CB9D3F /* CityTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB3D0D2493ED7000CB9D3F /* CityTableTests.swift */; };
+		DAAB3D112493F44500CB9D3F /* TestMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB3D102493F44500CB9D3F /* TestMockData.swift */; };
 		DAAC7D152492FD320027AB6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC7D142492FD320027AB6D /* AppDelegate.swift */; };
 		DAAC7D172492FD320027AB6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC7D162492FD320027AB6D /* SceneDelegate.swift */; };
 		DAAC7D192492FD320027AB6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC7D182492FD320027AB6D /* ViewController.swift */; };
@@ -87,6 +88,7 @@
 		DAAB3D092493EBCB00CB9D3F /* URLProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProtocolMock.swift; sourceTree = "<group>"; };
 		DAAB3D0B2493EBEC00CB9D3F /* AlternativeServiceLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternativeServiceLayerTests.swift; sourceTree = "<group>"; };
 		DAAB3D0D2493ED7000CB9D3F /* CityTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableTests.swift; sourceTree = "<group>"; };
+		DAAB3D102493F44500CB9D3F /* TestMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMockData.swift; sourceTree = "<group>"; };
 		DAAC7D112492FD320027AB6D /* TestHandsOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHandsOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAC7D142492FD320027AB6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAAC7D162492FD320027AB6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				DAAB3CF02493C10600CB9D3F /* URLSessionMock.swift */,
 				DAAB3CF22493C1B100CB9D3F /* DataTaskMock.swift */,
 				DAAB3CF42493C75B00CB9D3F /* HTTPResponseMock.swift */,
+				DAAB3D102493F44500CB9D3F /* TestMockData.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -516,6 +519,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAAB3CF32493C1B100CB9D3F /* DataTaskMock.swift in Sources */,
+				DAAB3D112493F44500CB9D3F /* TestMockData.swift in Sources */,
 				DAAB3D0A2493EBCB00CB9D3F /* URLProtocolMock.swift in Sources */,
 				DAAB3CF12493C10600CB9D3F /* URLSessionMock.swift in Sources */,
 				DAAB3D0C2493EBEC00CB9D3F /* AlternativeServiceLayerTests.swift in Sources */,

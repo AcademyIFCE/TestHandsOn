@@ -7,22 +7,21 @@
 //
 
 import Foundation
+@testable import TestHandsOn
 
 class DataTaskMock: URLSessionDataTask {
+    var mockData: TestMockData?
     
     var calledResume = false
     var completion: (Data?, URLResponse?, Error?) -> Void
     
-    init(completion: @escaping (Data?, URLResponse?, Error?) -> Void) {
+    init(mockData: TestMockData? = nil, completion: @escaping (Data?, URLResponse?, Error?) -> Void) {
         self.completion = completion
+        self.mockData = mockData
     }
+    
     override func resume() {
         calledResume = true
-        completion(nil, nil, nil)
+        completion(mockData?.testData, mockData?.testResponse, mockData?.testError)
     }
-}
-
-class DataTaskMockWithData: URLSessionDataTask {
-    override init() {}
-    override func resume() {}
 }
