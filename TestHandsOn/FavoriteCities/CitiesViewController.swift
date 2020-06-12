@@ -62,6 +62,9 @@ class CitiesViewController: UIViewController {
         self.present(alert, animated: true, completion: nil)
     }
     
+    
+    /// This fucntion removes a city on a given index
+    /// - Parameter index: the position of the city on the table view
     private func removeCity(index: IndexPath) {
         table.beginUpdates()
         table.deleteRows(at: [index], with: .left)

@@ -8,9 +8,14 @@
 
 import Foundation
 
+protocol ProjectMap {
+    func addTask(task: Task)
+    var tasks: [Task] { get set }
+}
+
 class User {
     var name: String
-    private (set) var projects: [Project]
+    private (set) var projects: [ProjectMap]
     var outstandingTasksString: String {
         get {
             return "\(projects.reduce(0) { $0 + $1.tasks.count }) items"
@@ -22,7 +27,7 @@ class User {
         self.projects = []
     }
     
-    func addProject(project: Project) {
+    func addProject(project: ProjectMap) {
         self.projects.append(project)
     }
 }

@@ -8,9 +8,9 @@
 
 import Foundation
 
-class Project {
+class Project: ProjectMap {
     var name: String
-    private (set) var tasks: [Task]
+    var tasks: [Task]
     
     init(name: String) {
         self.name = name

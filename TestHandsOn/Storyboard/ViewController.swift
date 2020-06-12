@@ -21,4 +21,3 @@ class ViewController: UIViewController {
         myButton.setTitle("bye bye", for: .normal)
     }
 }
-

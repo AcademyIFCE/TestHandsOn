@@ -8,6 +8,8 @@
 
 import UIKit
 
+//swiftlint:disable force_cast
+
 class OnboardViewController: UIViewController {
     
     let collection: UICollectionView = {

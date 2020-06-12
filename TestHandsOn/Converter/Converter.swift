@@ -12,8 +12,8 @@ struct Converter {
     
     func convertToCelsius(farenheit: Double) -> Double {
 //        return (farenheit - 32) * 5 / 9
-        let farenheitMeasure = Measurement(value: farenheit, unit: UnitTemperature.fahrenheit)
-        return farenheitMeasure.converted(to: .celsius).value
+        let farenMeasure = Measurement(value: farenheit, unit: UnitTemperature.fahrenheit)
+        return farenMeasure.converted(to: UnitTemperature.celsius).value
     }
     
 }
