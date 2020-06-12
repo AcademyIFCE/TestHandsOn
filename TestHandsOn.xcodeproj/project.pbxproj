@@ -13,6 +13,20 @@
 		DAAC7D1C2492FD320027AB6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAAC7D1A2492FD320027AB6D /* Main.storyboard */; };
 		DAAC7D1E2492FD350027AB6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAAC7D1D2492FD350027AB6D /* Assets.xcassets */; };
 		DAAC7D212492FD350027AB6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAAC7D1F2492FD350027AB6D /* LaunchScreen.storyboard */; };
+		DAAC7D2F2492FE3A0027AB6D /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC7D2B2492FE3A0027AB6D /* OnboardViewController.swift */; };
+		DAAC7D302492FE3A0027AB6D /* OnboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC7D2C2492FE3A0027AB6D /* OnboardCollectionViewCell.swift */; };
+		DAAC7D312492FE3A0027AB6D /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC7D2D2492FE3A0027AB6D /* CitiesViewController.swift */; };
+		DAAC7D322492FE3A0027AB6D /* OnboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC7D2E2492FE3A0027AB6D /* OnboardModel.swift */; };
+		DAAC7D382492FE590027AB6D /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC7D342492FE590027AB6D /* ServiceLayer.swift */; };
+		DAAC7D392492FE590027AB6D /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC7D352492FE590027AB6D /* Router.swift */; };
+		DAAC7D3A2492FE590027AB6D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC7D362492FE590027AB6D /* Model.swift */; };
+		DAAC7D3B2492FE590027AB6D /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC7D372492FE590027AB6D /* ServiceError.swift */; };
+		DAAC7D3E2492FE710027AB6D /* Sieve.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC7D3D2492FE710027AB6D /* Sieve.swift */; };
+		DAAC7D412492FE820027AB6D /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC7D402492FE820027AB6D /* Calculator.swift */; };
+		DAAC7D462492FE9E0027AB6D /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC7D432492FE9E0027AB6D /* Project.swift */; };
+		DAAC7D472492FE9E0027AB6D /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC7D442492FE9E0027AB6D /* Tasks.swift */; };
+		DAAC7D482492FE9E0027AB6D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC7D452492FE9E0027AB6D /* User.swift */; };
+		DAAC7D4B2492FEB10027AB6D /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC7D4A2492FEB10027AB6D /* Converter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,20 @@
 		DAAC7D1D2492FD350027AB6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAAC7D202492FD350027AB6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAAC7D222492FD350027AB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAAC7D2B2492FE3A0027AB6D /* OnboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardViewController.swift; sourceTree = "<group>"; };
+		DAAC7D2C2492FE3A0027AB6D /* OnboardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardCollectionViewCell.swift; sourceTree = "<group>"; };
+		DAAC7D2D2492FE3A0027AB6D /* CitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
+		DAAC7D2E2492FE3A0027AB6D /* OnboardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardModel.swift; sourceTree = "<group>"; };
+		DAAC7D342492FE590027AB6D /* ServiceLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
+		DAAC7D352492FE590027AB6D /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		DAAC7D362492FE590027AB6D /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DAAC7D372492FE590027AB6D /* ServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		DAAC7D3D2492FE710027AB6D /* Sieve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sieve.swift; sourceTree = "<group>"; };
+		DAAC7D402492FE820027AB6D /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		DAAC7D432492FE9E0027AB6D /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		DAAC7D442492FE9E0027AB6D /* Tasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		DAAC7D452492FE9E0027AB6D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DAAC7D4A2492FEB10027AB6D /* Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +84,93 @@
 		DAAC7D132492FD320027AB6D /* TestHandsOn */ = {
 			isa = PBXGroup;
 			children = (
-				DAAC7D142492FD320027AB6D /* AppDelegate.swift */,
-				DAAC7D162492FD320027AB6D /* SceneDelegate.swift */,
-				DAAC7D182492FD320027AB6D /* ViewController.swift */,
-				DAAC7D1A2492FD320027AB6D /* Main.storyboard */,
+				DAAC7D492492FEA70027AB6D /* Converter */,
+				DAAC7D422492FE950027AB6D /* Todo */,
+				DAAC7D3F2492FE780027AB6D /* Calculator */,
+				DAAC7D3C2492FE600027AB6D /* Sieve */,
+				DAAC7D332492FE460027AB6D /* Projects */,
+				DAAC7D2A2492FE2E0027AB6D /* Onboard */,
+				DAAC7D292492FE150027AB6D /* Storyboard */,
+				DAAC7D282492FE090027AB6D /* Shared */,
 				DAAC7D1D2492FD350027AB6D /* Assets.xcassets */,
 				DAAC7D1F2492FD350027AB6D /* LaunchScreen.storyboard */,
-				DAAC7D222492FD350027AB6D /* Info.plist */,
 			);
 			path = TestHandsOn;
+			sourceTree = "<group>";
+		};
+		DAAC7D282492FE090027AB6D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DAAC7D142492FD320027AB6D /* AppDelegate.swift */,
+				DAAC7D162492FD320027AB6D /* SceneDelegate.swift */,
+				DAAC7D222492FD350027AB6D /* Info.plist */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DAAC7D292492FE150027AB6D /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DAAC7D182492FD320027AB6D /* ViewController.swift */,
+				DAAC7D1A2492FD320027AB6D /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		DAAC7D2A2492FE2E0027AB6D /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				DAAC7D2D2492FE3A0027AB6D /* CitiesViewController.swift */,
+				DAAC7D2C2492FE3A0027AB6D /* OnboardCollectionViewCell.swift */,
+				DAAC7D2E2492FE3A0027AB6D /* OnboardModel.swift */,
+				DAAC7D2B2492FE3A0027AB6D /* OnboardViewController.swift */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		DAAC7D332492FE460027AB6D /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				DAAC7D362492FE590027AB6D /* Model.swift */,
+				DAAC7D352492FE590027AB6D /* Router.swift */,
+				DAAC7D372492FE590027AB6D /* ServiceError.swift */,
+				DAAC7D342492FE590027AB6D /* ServiceLayer.swift */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		DAAC7D3C2492FE600027AB6D /* Sieve */ = {
+			isa = PBXGroup;
+			children = (
+				DAAC7D3D2492FE710027AB6D /* Sieve.swift */,
+			);
+			path = Sieve;
+			sourceTree = "<group>";
+		};
+		DAAC7D3F2492FE780027AB6D /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				DAAC7D402492FE820027AB6D /* Calculator.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		DAAC7D422492FE950027AB6D /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				DAAC7D432492FE9E0027AB6D /* Project.swift */,
+				DAAC7D442492FE9E0027AB6D /* Tasks.swift */,
+				DAAC7D452492FE9E0027AB6D /* User.swift */,
+			);
+			path = Todo;
+			sourceTree = "<group>";
+		};
+		DAAC7D492492FEA70027AB6D /* Converter */ = {
+			isa = PBXGroup;
+			children = (
+				DAAC7D4A2492FEB10027AB6D /* Converter.swift */,
+			);
+			path = Converter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +244,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAAC7D322492FE3A0027AB6D /* OnboardModel.swift in Sources */,
 				DAAC7D192492FD320027AB6D /* ViewController.swift in Sources */,
 				DAAC7D152492FD320027AB6D /* AppDelegate.swift in Sources */,
+				DAAC7D382492FE590027AB6D /* ServiceLayer.swift in Sources */,
+				DAAC7D482492FE9E0027AB6D /* User.swift in Sources */,
+				DAAC7D4B2492FEB10027AB6D /* Converter.swift in Sources */,
+				DAAC7D392492FE590027AB6D /* Router.swift in Sources */,
+				DAAC7D462492FE9E0027AB6D /* Project.swift in Sources */,
+				DAAC7D412492FE820027AB6D /* Calculator.swift in Sources */,
+				DAAC7D3A2492FE590027AB6D /* Model.swift in Sources */,
+				DAAC7D2F2492FE3A0027AB6D /* OnboardViewController.swift in Sources */,
+				DAAC7D3B2492FE590027AB6D /* ServiceError.swift in Sources */,
+				DAAC7D312492FE3A0027AB6D /* CitiesViewController.swift in Sources */,
+				DAAC7D302492FE3A0027AB6D /* OnboardCollectionViewCell.swift in Sources */,
+				DAAC7D3E2492FE710027AB6D /* Sieve.swift in Sources */,
+				DAAC7D472492FE9E0027AB6D /* Tasks.swift in Sources */,
 				DAAC7D172492FD320027AB6D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
